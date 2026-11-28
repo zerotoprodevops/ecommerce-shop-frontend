@@ -1,6 +1,6 @@
 pipeline{
 
-    agent {labels 'build-vm'}
+    agent {label 'build-vm'}
     environment{
         IMAGE = 'jyotimanab/ecommerce-shop-frontend'
         TAG = 'v1'
